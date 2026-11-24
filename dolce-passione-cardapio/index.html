@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Cardápio | Dolce Passione – Doces Artesanais</title>
+<meta name="description" content="Cardápio digital da Dolce Passione: bolos, docinhos, brownies, cookies, salgados, açaí e muito mais. Impossível não se apaixonar! Peça pelo WhatsApp.">
+<meta name="theme-color" content="#fff7f0">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:type" content="website"><meta property="og:title" content="Dolce Passione – Cardápio">
+<meta property="og:description" content="Doces artesanais. Impossível não se apaixonar!">
+<meta property="og:image" content="assets/og-image.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light;--berry:#d4155a;--rose:#ff4d8d;--blush:#ffe3ec;--choc:#3b1612;--gold:#ffb81c;--cream:#fff7f0;--mu:#7d5f5a;--ln:#f2dcd6;--r:22px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:'Poppins',sans-serif;background:var(--cream);color:var(--choc);-webkit-font-smoothing:antialiased;padding-bottom:90px}
+img{display:block;max-width:100%}
+/* HERO */
+.hero{position:relative;overflow:hidden;text-align:center;padding:28px 16px 64px;background:radial-gradient(70% 60% at 100% 0%,#ffc2d6 0%,transparent 60%),radial-gradient(60% 50% at 0% 100%,#ffd3c2 0%,transparent 60%),#fff7f0}
+.hero>*{position:relative;z-index:1}
+.hero picture,.hero img{display:block;margin:0 auto;width:min(860px,100%);height:auto}
+.hero img{border-radius:26px;box-shadow:0 18px 50px #d4155a33;margin-bottom:22px!important}
+.cta{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:10px}
+.btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:600;font-size:.88rem;padding:14px 24px;border-radius:99px;transition:.2s}
+.btn svg{width:18px;height:18px;fill:currentColor}
+.btn.w{background:#25d366;color:#fff;box-shadow:0 10px 22px #25d36655}
+.btn.g{background:linear-gradient(135deg,#d4155a,#ff4d8d);color:#fff;box-shadow:0 10px 22px #d4155a44}
+.btn:hover{transform:translateY(-2px)}
+.wave{position:absolute;left:0;right:0;bottom:-1px;height:40px;z-index:1}
+/* NAV */
+nav{position:sticky;top:0;z-index:20;background:#fff7f0ee;backdrop-filter:blur(12px);border-bottom:1px solid var(--ln)}
+nav .in{display:flex;gap:8px;overflow-x:auto;padding:12px 16px;scrollbar-width:none;max-width:1180px;margin:auto}
+nav .in::-webkit-scrollbar{display:none}
+nav a{flex:none;display:flex;align-items:center;gap:8px;padding:5px 14px 5px 5px;border-radius:99px;background:#fff;border:1px solid var(--ln);text-decoration:none;color:var(--choc);font-size:.8rem;font-weight:500;transition:.2s}
+nav a img{width:30px;height:30px;border-radius:50%;object-fit:cover}
+nav a.on{background:var(--berry);color:#fff;border-color:var(--berry);box-shadow:0 6px 14px #d4155a55}
+/* SECTIONS */
+main{max-width:1180px;margin:auto;padding:12px 16px}
+section{padding-top:36px}
+.sh{display:flex;align-items:flex-end;gap:14px;margin-bottom:18px}
+.sh .bar{width:6px;align-self:stretch;border-radius:9px;background:linear-gradient(var(--rose),var(--gold))}
+.sh h2{font-size:clamp(1.5rem,5vw,2.1rem);font-weight:700;letter-spacing:-.02em;line-height:1.1}
+.sh small{display:block;font-size:.72rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--berry);margin-bottom:4px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px}
+.card{background:#fff;border-radius:var(--r);overflow:hidden;box-shadow:0 10px 30px #7a1b3a14;display:flex;flex-direction:column;transition:.25s;border:1px solid #f6e6e0}
+.card:hover{transform:translateY(-5px);box-shadow:0 18px 40px #d4155a26}
+.ph{position:relative;aspect-ratio:1/1;background:linear-gradient(135deg,var(--blush),#ffd0a8);overflow:hidden}
+.ph img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.card:hover .ph img{transform:scale(1.06)}
+.ph:after{content:"";position:absolute;inset:auto 0 0 0;height:45%;background:linear-gradient(transparent,#2a0d0a66)}
+.pr{position:absolute;right:12px;bottom:12px;z-index:2;background:var(--gold);color:var(--choc);font-weight:700;font-size:.95rem;padding:7px 14px;border-radius:99px;box-shadow:0 6px 14px #0004}
+.pr small{font-size:.68rem;font-weight:600;margin-right:2px}
+.bd{position:absolute;left:12px;top:12px;z-index:2;background:var(--berry);color:#fff;font-size:.66rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:5px 11px;border-radius:99px}
+.bd.s{background:var(--choc)}
+.bd.w{left:auto;right:12px;background:#ffffffe6;color:var(--choc)}
+.bo{padding:16px 18px 20px;display:flex;flex-direction:column;gap:6px;flex:1}
+.bo h3{font-size:1rem;font-weight:600;line-height:1.3}
+.bo p{font-size:.78rem;line-height:1.55;color:var(--mu);font-weight:400}
+.wt{display:inline-block;font-size:.68rem;font-weight:600;color:var(--berry);background:var(--blush);padding:2px 9px;border-radius:99px;vertical-align:2px;white-space:nowrap}
+.ph img{image-rendering:auto}
+@media(max-width:600px){
+ .grid{grid-template-columns:1fr;gap:14px}
+ .card{flex-direction:row;border-radius:18px}
+ .ph{width:132px;flex:none;aspect-ratio:1/1;align-self:stretch;min-height:132px}
+ .ph img{position:absolute;inset:0}
+ .ph:after{display:none}
+ .pr{left:8px;right:auto;bottom:8px;font-size:.78rem;padding:4px 10px}
+ .bd{left:8px;top:8px;font-size:.58rem;padding:3px 8px}
+ .bo{padding:14px 14px 16px;gap:4px}
+ .bo h3{font-size:.92rem}
+}
+/* FOOTER */
+footer{margin-top:50px;background:linear-gradient(160deg,#4a1511,#2a0d0a);color:#fff;text-align:center;padding:50px 20px 40px;position:relative}
+footer h4{font-size:1.5rem;font-weight:700}footer h4 span{color:var(--gold)}
+footer p{opacity:.75;font-size:.85rem;margin-top:6px}
+.ct{display:grid;gap:12px;max-width:420px;margin:26px auto 0}
+.ct a{display:flex;align-items:center;gap:14px;text-decoration:none;color:#fff;background:#ffffff12;border:1px solid #ffffff22;border-radius:16px;padding:14px 18px;text-align:left;font-size:.88rem;font-weight:500;transition:.2s}
+.ct a:hover{background:#ffffff22}
+.ct svg{width:22px;height:22px;fill:var(--gold);flex:none}
+.ct small{display:block;font-size:.66rem;opacity:.65;font-weight:400;letter-spacing:.1em;text-transform:uppercase}
+.cp{margin-top:28px;font-size:.7rem;opacity:.5}
+/* FAB */
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;display:flex;align-items:center;gap:10px;background:#25d366;color:#fff;text-decoration:none;font-weight:600;font-size:.85rem;padding:14px 20px;border-radius:99px;box-shadow:0 12px 28px #0005}
+.fab svg{width:22px;height:22px;fill:#fff}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><defs>
+<linearGradient id="gF" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd1e1"/><stop offset="1" stop-color="#ff6fa5"/></linearGradient>
+<linearGradient id="gW" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb81c"/><stop offset="1" stop-color="#ff8a1c"/></linearGradient>
+<symbol id="ico-wa" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.4.6-.3.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l2 .9c.3.1.5.2.5.3.1.2.1.7-.1 1.4z"/></symbol>
+<symbol id="ico-ig" viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM17.3 6a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2z"/></symbol>
+<symbol id="ico-ml" viewBox="0 0 24 24"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1.5 2v.4l7.5 5 7.5-5V7h-15zm15 2.8-7.5 5-7.5-5V17h15V9.8z"/></symbol>
+<symbol id="cup" viewBox="0 0 100 100">
+ <path d="M24 54h52l-7 38q-1 4-5 4H36q-4 0-5-4z" fill="url(#gW)"/>
+ <path d="M38 58l3 34M50 58v38M62 58l-3 34" stroke="#ffffff66" stroke-width="2.4" stroke-linecap="round"/>
+ <path d="M12 56q-2-18 38-18t38 18q-38 10-76 0z" fill="url(#gF)"/>
+ <path d="M24 44q0-16 26-16t26 16q-26 8-52 0z" fill="url(#gF)" stroke="#fff" stroke-opacity=".5" stroke-width="1.5"/>
+ <path d="M35 33q2-15 16-19-2 9 8 11 6 3 5 8-14 5-29 0z" fill="url(#gF)" stroke="#fff" stroke-opacity=".5" stroke-width="1.5"/>
+ <path d="M50 12c-3-5-10-1-6 4 2 2 6 5 6 5s4-3 6-5c4-5-3-9-6-4z" fill="#fff" transform="translate(7 -3) scale(.7)"/>
+</symbol>
+</defs></svg>
+
+<header class="hero">
+ <picture><source srcset="assets/logo.webp" type="image/webp"><img src="assets/logo.png" width="1774" height="887" alt="Dolce Passione – Doces Artesanais. Impossível não se apaixonar!" fetchpriority="high"></picture>
+ <div class="cta">
+  <a class="btn w" href="https://wa.me/5547988730425" target="_blank" rel="noopener"><svg><use href="#ico-wa"/></svg>Fazer pedido</a>
+  <a class="btn g" href="https://instagram.com/dolce.passione01" target="_blank" rel="noopener"><svg><use href="#ico-ig"/></svg>@dolce.passione01</a>
+ </div>
+ <svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30C240 70 480 0 720 25s480 45 720 5v30H0z" fill="#fff7f0"/></svg>
+</header>
+
+<nav><div class="in" id="nv"></div></nav>
+<main id="mn"></main>
+
+<footer>
+ <h4>Dolce <span>Passione</span></h4>
+ <p>Doces Artesanais · Impossível não se apaixonar!</p>
+ <div class="ct">
+  <a href="https://wa.me/5547988730425" target="_blank" rel="noopener"><svg><use href="#ico-wa"/></svg><div><small>WhatsApp</small>+55 47 9 8873-0425</div></a>
+  <a href="https://instagram.com/dolce.passione01" target="_blank" rel="noopener"><svg><use href="#ico-ig"/></svg><div><small>Instagram</small>@dolce.passione01</div></a>
+  <a href="mailto:dolcepassionedoces@gmail.com"><svg><use href="#ico-ml"/></svg><div><small>E-mail</small>dolcepassionedoces@gmail.com</div></a>
+ </div>
+ <div class="cp">© Dolce Passione Gourmet</div>
+</footer>
+<a class="fab" href="https://wa.me/5547988730425" target="_blank" rel="noopener"><svg><use href="#ico-wa"/></svg>Pedir agora</a>
+
+<script>
+const C=[
+["Doces de Pote","🍇",[
+["Copo da Felicidade Chocolate Branco com Uva","Camadas de creme de chocolate branco com uvas italianas frescas e sem semente, finalizadas com granulado de chocolate. Servido em copinho com tampa.","22,90"],
+["Copo da Felicidade Brigadeiro com Uva","Camadas de brigadeiro cremoso com uvas italianas frescas e sem semente, finalizadas com raspas de chocolate branco. Servido em copinho com tampa.","22,90"]]],
+["Docinhos","🍬",[
+["Beijinho Tradicional und.","Docinho clássico de coco cremoso, enrolado no açúcar cristal e finalizado com um cravinho. Aprox. 16g.","3,90"],
+["Brigadeiro Tradicional und.","Brigadeiro clássico de chocolate, cremoso e macio, enrolado no granulado. Aprox. 16g.","3,90"],
+["Docinho de Coco Queimado und.","Brigadeiro cremoso de coco queimado, com sabor caramelizado, enrolado em coco queimado. Aprox. 16g.","3,90"],
+["Combo Trio de Docinhos","1 Beijinho + 1 Brigadeiro Tradicional + 1 Brigadeiro de Coco Queimado. Três docinhos artesanais para experimentar todos os sabores.","11,29"]]],
+["Bolos de Pote","🧁",[
+["Bolo de Pote Red Velvet com Brigadeiro Branco 180g","Camadas de bolo red velvet macio, intercaladas com brigadeiro branco cremoso e confeitos coloridos. Servido com tampa.","17,90"],
+["Bolo de Pote Chocolate Branco com Brigadeiro 180g","Bolo macio de chocolate branco, recheado com brigadeiro de chocolate cremoso, granulado e confeitos. Servido com tampa.","17,90"],
+["Bolo de Pote de Cenoura com Brigadeiro 180g","Camadas de bolo de cenoura fofinho com brigadeiro cremoso, raspas de chocolate branco e confeitos de coração. Servido com tampa.","17,90"]]],
+["Brownies","🍫",[
+["Brownie com Gotas de Chocolate Branco","Brownie artesanal macio com pedaços de chocolate branco e casquinha crocante.","14,00"],
+["Brownie de Chocolate Preto Meio Amargo","Brownie artesanal de chocolate meio amargo, casquinha crocante e interior macio e intenso.","14,00"],
+["Combo Duo Brownie (Meio Amargo + Chocolate Branco)","1 Brownie de Chocolate Meio Amargo + 1 Brownie de Chocolate Branco. A dupla perfeita para dividir (ou não)!","24,99"],
+["Combo Brownie (Dois Sabores) + Coca Lata 310ml","2 Brownies artesanais (Meio Amargo e Chocolate Branco) + 1 Coca-Cola lata (Original ou Zero).","29,99"]]],
+["Cookies","🍪",[
+["Fatia de Torta Cookie com Chocolate","Fatia generosa de torta cookie crocante por fora, macia por dentro, recheada com chocolate cremoso e pedaços de chocolate.","23,99"],
+["Combo Fatia Cookie + Coca","1 Fatia de Torta Cookie com Chocolate + 1 Coca-Cola lata (Original ou Zero).","29,99"],
+["Fatia de Torta Cookie com Nutella 180g","Torta cookie dourada e crocante, recheada com Nutella cremosa e cobertura de chocolate.","25,99"]]],
+["Pudim","🍮",[
+["Pudim de Leite Condensado 450g","Pudim cremoso, lisinho e aveludado, sem furinhos, coberto com calda de caramelo dourada. Aprox. 450g.","49,90"]]],
+["Fatias de Bolo (Recheados)","🍰",[
+["Fatia de Bolo Red Velvet com Cream Cheese 180g","Bolo red velvet macio e aveludado, recheado com creme de nata e cobertura cremosa de cream cheese. Aprox. 180g.","23,90"]]],
+["Bolos com Cobertura","🎂",[
+["Bolo de Cenoura com Cobertura de Brigadeiro 440g","Bolo de cenoura fofinho e úmido, coberto com brigadeiro cremoso que escorre pelas laterais.","32,90"],
+["Bolo de Limão com Cobertura de Limão 440g","Bolo de limão fofinho e úmido, com glacê cremoso e raspas de limão. Refrescante.","32,90"],
+["Bolo de Chocolate com Cobertura de Brigadeiro 440g","Bolo de chocolate fofinho e úmido, com brigadeiro cremoso e pedacinhos de chocolate branco.","32,90"],
+["Bolo de Fubá com Goiabada 440g","Bolo de fubá fofinho e caseiro, com calda de goiabada cremosa que escorre pelas fatias.","32,90"],
+["Bolo Toalha Felpuda 440g","Massa amanteigada banhada com leite de coco e coberta com coco ralado. Úmido e delicado.","32,90"]]],
+["Bolos sem Cobertura","🥧",[
+["Bolo de Laranja Caseiro 440g","Bolo de laranja fofinho, dourado por fora e úmido por dentro, com gostinho caseiro.","29,90"]]],
+["Bebidas","🥤",[
+["Coca-Cola Zero 310ml","Lata geladinha, sem açúcar.","8,00"],
+["Coca-Cola Original 310ml","Lata geladinha, sabor original.","8,00"],
+["Sprite 350ml","Lata sabor limão, geladinha.","9,20"],
+["Fanta Laranja 350ml - Edição Especial","Lata com arte do Ghost (Call of Duty), geladinha.","9,20"],
+["Guaraná Antarctica 350ml","Lata geladinha, o sabor original do Brasil.","9,20"],
+["Fanta Uva 350ml","Lata sabor uva, geladinha.","9,20"],
+["Sprite Zero Açúcar 200ml","Garrafinha sabor limão, sem açúcar.","4,50"],
+["Fanta Laranja 200ml","Garrafinha sabor laranja.","4,50"],
+["Água da Pedra sem Gás 500ml","Água mineral sem gás, geladinha.","6,00"],
+["Água Crystal com Gás 500ml","Água mineral com gás, 500ml, bem gelada.","6,00"]]],
+["Bolos (Sob Encomenda)","🎉",[
+["Bolo de Chocolate com Recheio de Ninho 1500g","Massa de chocolate fofinha com creme de leite Ninho, cobertura de brigadeiro, coco ralado nas laterais e bicos de chantilly. Bolo inteiro de 1500g.","179,90"],
+["Bolo Floresta Negra com Cereja e Brigadeiro 1500g","Massa branca ou preta (você escolhe!), recheio de cerejas e brigadeiro, cobertura de chantilly com cerejas e fios de chocolate. Bolo inteiro de 1500g.","179,90"],
+["Bolo de Pão de Ló com Morango, Suspiro e Nata 1500g","Pão de ló amanteigado com morangos frescos, suspiro e nata, cobertura de chantilly e morangos. Bolo inteiro de 1500g.","184,90"],
+["Bolo de Pão de Ló com Ninho, Uvas e Chocolate Preto, Cobertura de Ganache 1500g","Pão de ló com creme de Ninho, uvas verdes e chocolate preto. Ganache preta ou branca (você escolhe!). Bolo inteiro de 1500g.","179,90"],
+["Bolo de Pão de Ló com Creme Belga, Abacaxi e Coco 1500g","Pão de ló com creme belga, abacaxi e coco ralado, cobertura de creme, coco tostado e abacaxi. Bolo inteiro de 1500g.","184,90"],
+["Bolo de Pão de Ló Branco com Brigadeiro Meio Amargo, Chocolate Branco e Morango 1500g","Pão de ló branco com brigadeiro meio amargo, chocolate branco e morangos, chantilly e calda de chocolate. Bolo inteiro de 1500g.","179,90"]]],
+["Salgados","🥟",[
+["Combo de Salgados: 3 Coxinhas, 3 Quibes e 3 Pães de Queijo","Seleção de salgados tradicionais, 3 unidades de cada sabor. Cerca de 40g por unidade.","26,99"],
+["Combo de Salgados com Coca-Cola Lata: Coxinhas, Quibes e Pães de Queijo","3 Coxinhas, 3 Quibes, 4 Pães de Queijo + 1 lata de Coca-Cola Original gelada.","37,90"],
+["Coxinha de Frango Tradicional 40g","Massa macia recheada com frango bem temperado, empanada e frita até ficar dourada e crocante.","3,25"],
+["Quibe Tradicional 40g","Trigo para quibe e carne bem temperada, casquinha dourada e crocante, macio por dentro.","3,25"],
+["Pão de Queijo Tradicional 40g","Casquinha dourada e levemente crocante, interior macio, elástico e cheio de queijo.","3,25"],
+["Cento de Salgados Sortidos: 33 Coxinhas, 33 Quibes e 33 Pães de Queijo","Ideal para festas e eventos: 33% de cada sabor. 40g por salgado.","149,90"],
+["Cento de Salgados Sortidos + Coca-Cola 2l + Guaraná Antarctica 1l","Cento sortido (33% de cada sabor) + Coca-Cola Original 2l + Guaraná Antarctica 1l. Salgados organizados em bandeja.","174,90"],
+["Folhado de Carne 120g","Massa leve e amanteigada que se desfaz em camadas, com recheio de carne suculenta.","18,90"],
+["Folhado de Frango 120g","Massa leve e amanteigada em camadas, com frango desfiado bem temperado.","18,90"],
+["Folhado de Pizza 120g","Massa leve e amanteigada em camadas, com queijo derretido, presunto e tomate.","18,90"]]],
+["Copos de Açaí","🍧",[
+["Açaí no Copo 300ml com Leite Condensado e Granola","Açaí batido em camadas com leite condensado e granola crocante. Sirva bem gelado.","26,90"],
+["Açaí no Copo 500ml com Leite Condensado e Granola","Açaí batido em camadas com leite condensado e granola crocante, bem servido. Sirva bem gelado.","29,90"]]]
+];
+const IMG={"Bolo de Pão de Ló com Ninho, Uvas e Chocolate Preto, Cobertura de Ganache 1500g": "img/01.jpg", "Bolo de Pão de Ló com Morango, Suspiro e Nata 1500g": "img/02.jpg", "Bolo Floresta Negra com Cereja e Brigadeiro 1500g": "img/03.jpg", "Bolo de Chocolate com Recheio de Ninho 1500g": "img/04.jpg", "Água Crystal com Gás 500ml": "img/05.jpg", "Água da Pedra sem Gás 500ml": "img/06.jpg", "Folhado de Pizza 120g": "img/07.jpg", "Folhado de Frango 120g": "img/08.jpg", "Folhado de Carne 120g": "img/09.jpg", "Açaí no Copo 500ml com Leite Condensado e Granola": "img/10.jpg", "Açaí no Copo 300ml com Leite Condensado e Granola": "img/11.jpg", "Cento de Salgados Sortidos + Coca-Cola 2l + Guaraná Antarctica 1l": "img/12.jpg", "Cento de Salgados Sortidos: 33 Coxinhas, 33 Quibes e 33 Pães de Queijo": "img/13.jpg", "Pão de Queijo Tradicional 40g": "img/14.jpg", "Quibe Tradicional 40g": "img/15.jpg", "Coxinha de Frango Tradicional 40g": "img/16.jpg", "Combo de Salgados com Coca-Cola Lata: Coxinhas, Quibes e Pães de Queijo": "img/17.jpg", "Combo de Salgados: 3 Coxinhas, 3 Quibes e 3 Pães de Queijo": "img/18.jpg", "Bolo de Pão de Ló Branco com Brigadeiro Meio Amargo, Chocolate Branco e Morango 1500g": "img/19.jpg", "Bolo de Pão de Ló com Creme Belga, Abacaxi e Coco 1500g": "img/20.jpg", "Bolo de Chocolate com Cobertura de Brigadeiro 440g": "img/21.jpg", "Bolo de Limão com Cobertura de Limão 440g": "img/22.jpg", "Bolo de Cenoura com Cobertura de Brigadeiro 440g": "img/23.jpg", "Fatia de Bolo Red Velvet com Cream Cheese 180g": "img/24.jpg", "Pudim de Leite Condensado 450g": "img/25.jpg", "Fanta Laranja 200ml": "img/26.jpg", "Sprite Zero Açúcar 200ml": "img/27.jpg", "Fanta Uva 350ml": "img/28.jpg", "Guaraná Antarctica 350ml": "img/29.jpg", "Fanta Laranja 350ml - Edição Especial": "img/30.jpg", "Sprite 350ml": "img/31.jpg", "Coca-Cola Original 310ml": "img/32.jpg", "Coca-Cola Zero 310ml": "img/33.jpg", "Bolo de Laranja Caseiro 440g": "img/34.jpg", "Bolo Toalha Felpuda 440g": "img/36.jpg", "Bolo de Fubá com Goiabada 440g": "img/37.jpg", "Fatia de Torta Cookie com Nutella 180g": "img/35.jpg", "Combo Brownie (Dois Sabores) + Coca Lata 310ml": "img/38.jpg", "Bolo de Pote de Cenoura com Brigadeiro 180g": "img/39.jpg", "Bolo de Pote Chocolate Branco com Brigadeiro 180g": "img/40.jpg", "Bolo de Pote Red Velvet com Brigadeiro Branco 180g": "img/41.jpg", "Copo da Felicidade Brigadeiro com Uva": "img/42.jpg", "Copo da Felicidade Chocolate Branco com Uva": "img/43.jpg", "Combo Trio de Docinhos": "img/44.jpg", "Docinho de Coco Queimado und.": "img/45.jpg", "Brigadeiro Tradicional und.": "img/46.jpg", "Beijinho Tradicional und.": "img/47.jpg", "Combo Fatia Cookie + Coca": "img/48.jpg", "Fatia de Torta Cookie com Chocolate": "img/49.jpg", "Combo Duo Brownie (Meio Amargo + Chocolate Branco)": "img/50.jpg", "Brownie de Chocolate Preto Meio Amargo": "img/51.jpg", "Brownie com Gotas de Chocolate Branco": "img/52.jpg"};
+const mn=document.getElementById('mn'),nv=document.getElementById('nv');
+const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
+C.forEach((c,i)=>{
+  const first=IMG[c[2][0][0]];
+  nv.insertAdjacentHTML('beforeend',`<a href="#c${i}" data-i="${i}">${first?`<img src="${first}" alt="">`:''}${c[0]}</a>`);
+  const enc=c[0].includes('Encomenda');
+  const cards=c[2].map(p=>{
+    const m=p[0].match(/^(.*?)\s+(\d+(?:[.,]\d+)?\s?(?:g|ml|l|kg))$/i);
+    const name=m?m[1]:p[0], w=m?m[2]:'';
+    const [rs,cs]=p[2].split(',');
+    const src=IMG[p[0]];
+    return `<article class="card"><div class="ph">${src?`<img loading="lazy" decoding="async" width="240" height="240" src="${src}" alt="${esc(p[0])}">`:''}${enc?'<span class="bd">Sob encomenda</span>':/combo/i.test(p[0])?'<span class="bd s">Combo</span>':''}<div class="pr"><small>R$</small>${rs},${cs||'00'}</div></div><div class="bo"><h3>${name}${w?` <span class="wt">${w}</span>`:''}</h3><p>${p[1]}</p></div></article>`}).join('');
+  mn.insertAdjacentHTML('beforeend',`<section id="c${i}"><div class="sh"><div class="bar"></div><div><small>${String(i+1).padStart(2,'0')}</small><h2>${c[0]}</h2></div></div><div class="grid">${cards}</div></section>`);
+});
+const links=[...nv.children];
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){links.forEach(l=>l.classList.toggle('on',l.dataset.i===e.target.id.slice(1)));const a=nv.querySelector('.on');if(a)nv.scrollTo({left:a.offsetLeft-20,behavior:'smooth'})}}),{rootMargin:'-80px 0px -70% 0px'});
+document.querySelectorAll('section').forEach(s=>io.observe(s));
+</script>
+</body></html>
